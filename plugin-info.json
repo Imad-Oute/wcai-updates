@@ -1,14 +1,14 @@
 {
-  "name": "WooCommerce AI Chat",
+  "name": "Upsellix",
   "slug": "woocommerce-ai-chat",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "download_url": "https://updates.microhardtech.com/woocommerce-ai-chat.zip",
   "homepage": "https://updates.microhardtech.com/",
   "requires": "6.3",
   "tested": "6.5",
   "requires_php": "8.0",
-  "last_updated": "2026-08-06 19:16:55",
+  "last_updated": "2026-08-08 11:04:12",
   "sections": {
-    "changelog": "<ul><li>Live re-index progress: the onboarding wizard's Indexing step and the Knowledge Base page now show a moving bar with real counts (\"34 of 52 items sent\"), the phase being indexed, and a rough time estimate — powered by the plugin's own walk record instead of a backend stub that always read idle.</li> <li>Honest completion: a re-index whose items were rejected by the subscription's content limit now reports that outcome in the error style, instead of announcing success above an empty knowledge base. Partial rejections report both counts.</li> <li>The \"Re-index scheduled\" toast was retired; the progress panel is the single voice for a running re-index, and a stale success notice can no longer sit above a failure.</li> <li>The quality checklist no longer repeats the same improvement tip twice.</li> <li>A walk stopped by the plan's memory cap now closes its progress record instead of leaving the bar running until it aged out as stale.</li> </ul>"
+    "changelog": "<ul><li>The plugin is now Upsellix. The name, author and links in the plugin header, the activation and compatibility notices, and the update-channel listing all carry the new brand; the wp-admin surfaces move onto its blue accent.</li> <li>No functional change: settings, licence keys, stored data and the update slug are untouched, so this upgrades in place over 1.4.x with nothing to reconfigure.</li> </ul>"
   }
 }
