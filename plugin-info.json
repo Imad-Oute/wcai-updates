@@ -1,14 +1,14 @@
 {
   "name": "Upsellix",
   "slug": "woocommerce-ai-chat",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "download_url": "https://updates.upsellix.com/woocommerce-ai-chat.zip",
   "homepage": "https://updates.upsellix.com/",
   "requires": "6.3",
   "tested": "6.5",
   "requires_php": "8.0",
-  "last_updated": "2026-08-11 18:31:30",
+  "last_updated": "2026-08-11 21:54:26",
   "sections": {
-    "changelog": "<ul><li>Fixed: the setup wizard's \"Go to pricing\" button and its link to the Data Processing Agreement both pointed at a placeholder address that does not exist, so neither opened. Both now go to the real pages.</li> <li>Installation no longer asks you to edit `wp-config.php` — the service address ships with the plugin. The documentation said otherwise; the plugin had already stopped requiring it.</li> </ul>"
+    "changelog": "<ul><li>The pricing and Data Processing Agreement links in setup now point at upsellix.com, where the store now lives. The previous address still works and redirects, so existing installs are unaffected.</li> </ul>"
   }
 }
