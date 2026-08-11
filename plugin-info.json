@@ -1,14 +1,14 @@
 {
   "name": "Upsellix",
   "slug": "woocommerce-ai-chat",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "download_url": "https://updates.upsellix.com/woocommerce-ai-chat.zip",
   "homepage": "https://updates.upsellix.com/",
   "requires": "6.3",
   "tested": "6.5",
   "requires_php": "8.0",
-  "last_updated": "2026-08-11 14:17:26",
+  "last_updated": "2026-08-11 18:05:11",
   "sections": {
-    "changelog": "<ul><li>The plugin is now Upsellix. The name, author and links in the plugin header, the activation and compatibility notices, and the update-channel listing all carry the new brand; the wp-admin surfaces move onto its blue accent.</li> <li>No functional change: settings, licence keys, stored data and the update slug are untouched, so this upgrades in place over 1.4.x with nothing to reconfigure.</li> </ul>"
+    "changelog": "<ul><li>Verification release. No functional change: this build exists to prove the private update channel delivers an upgrade end-to-end before the first store installs, since that channel is the only route by which a fix can reach an installed site.</li> </ul>"
   }
 }
